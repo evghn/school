@@ -18,6 +18,9 @@
   --border-radius-btn: 100px;
   --cursor-btn: pointer;
   --min-height-page: 100vh;
+
+  --font: "Montserrat", sans-serif;
+  --font-style: normal;
 }
 
 body {
