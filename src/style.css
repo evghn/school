@@ -5,6 +5,18 @@
   -moz-osx-font-smoothing: grayscale;
 
   --bg-btn: #008bfe;
-  --font-btn: #ffffff;
-  --bg-main: #f0f4f8;
+  --bg-btn-hover: #006fcb;
+  --color-btn: #ffffff;
+  --font: "Montserrat", sans-serif;
+  --font-style: normal;
+  --bg-color: #f0f4f8;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  background-color: var(--bg-color);
+  font-family: var(--font);
+  font-style: var(--font-style);
 }

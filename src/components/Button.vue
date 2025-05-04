@@ -10,11 +10,15 @@
   max-height: 68px;
   min-height: 68px;
   background-color: var(--bg-btn);
-  color: var(--font-btn);
+  color: var(--color-btn);
   font-size: 24px;
   line-height: 36px;
   font-weight: 400;
   border: none;
   border-radius: 100px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: var(--bg-btn-hover);
 }
 </style>
