@@ -3,4 +3,31 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --bg-btn: #008bfe;
+  --bg-btn-hover: #006fcb;
+  --color-btn: #ffffff;
+  --font: "Montserrat", sans-serif;
+  --font-style: normal;
+  --bg-main: #f0f4f8;
+
+  --font-size-btn: 24px;
+  --line-height-btn: 36px;
+  --font-weight-btn: 400;
+  --border-btn: none;
+  --border-radius-btn: 100px;
+  --cursor-btn: pointer;
+  --min-height-page: 100vh;
+
+  --font: "Montserrat", sans-serif;
+  --font-style: normal;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  min-height: var(--min-height-page);
+  background-color: var(--bg-main);
+  font-family: var(--font);
+  font-style: var(--font-style);
 }
