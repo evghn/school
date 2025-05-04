@@ -17,18 +17,12 @@
   --border-btn: none;
   --border-radius-btn: 100px;
   --cursor-btn: pointer;
-
-  --width-btn: 335px;
-  --height-btn: 68px;
-
-  --display: grid;
-  --place-items: center;
   --min-height-page: 100vh;
 }
 
 body {
-  display: var(--display);
-  place-items: var(--place-items);
+  display: grid;
+  place-items: center;
   min-height: var(--min-height-page);
   background-color: var(--bg-main);
   font-family: var(--font);
