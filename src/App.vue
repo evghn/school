@@ -6,9 +6,6 @@ import Button from "./components/Button.vue";
     <Button> Начать игру </Button>
   </main>
 </template>
-
-<script setup></script>
-
 <style scoped>
 .main {
   background-color: var(--bg-main);
