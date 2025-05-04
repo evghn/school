@@ -20,12 +20,16 @@
 
   --width-btn: 335px;
   --height-btn: 68px;
+
+  --display: grid;
+  --place-items: center;
+  --min-height-page: 100vh;
 }
 
 body {
-  display: grid;
-  place-items: center;
-  min-height: 100vh;
+  display: var(--display);
+  place-items: var(--place-items);
+  min-height: var(--min-height-page);
   background-color: var(--bg-main);
   font-family: var(--font);
   font-style: var(--font-style);
