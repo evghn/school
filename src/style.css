@@ -10,6 +10,7 @@
   --font-style: normal;
   --bg-main: #f0f4f8;
 
+
   --color-white: #ffffff;
   --color-black: #000000;
   --color-btn-cancel: #d00303;
@@ -24,6 +25,10 @@
   --border-radius-btn: 100px;
   --cursor-btn: pointer;
   --min-height-page: 100vh;
+
+
+
+
 }
 
 body {

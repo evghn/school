@@ -10,7 +10,6 @@
   max-height: var(--height-btn);
   min-height: var(--height-btn);
   background-color: var(--bg-btn);
-  color: var(--color-white);
   font-size: var(--font-size-btn);
   line-height: var(--line-height-btn);
   font-weight: var(--font-weight-btn);
